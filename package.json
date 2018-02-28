@@ -6,6 +6,7 @@
   "license": "MIT",
   "dependencies": {
     "bootstrap": "4.0.0",
+    "dependencies": "^0.0.1",
     "node-sass": "^4.7.2"
   },
   "scripts": {
