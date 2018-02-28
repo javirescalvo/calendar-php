@@ -1,7 +1,7 @@
 <?php include('calendar.php');?>
 <html>
 <head>
-<link href="style.css" rel="stylesheet">
+<link href="public/css/app.css" rel="stylesheet">
 </head>
 <body>
   <div class="container-fluid">
@@ -14,5 +14,6 @@
       <?php endfor;?>
     </div>
   </div>
+  <script src="public/js/app.js"></script>
 </body>
 </html>
