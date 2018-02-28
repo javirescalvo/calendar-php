@@ -16474,9 +16474,23 @@ a.text-dark:focus {
   }
 }
 
-.navbar-laravel {
-  background-color: #fff;
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+.day {
+  min-height: 45px;
+  cursor: pointer;
+}
+
+.disabled-day {
+  cursor: default;
+  background: #f3f3f3;
+}
+
+.no-day {
+  cursor: default;
+  background: #e6e6e6;
+}
+
+.festivo {
+  cursor: default;
+  background: #ff00009c;
 }
 
