@@ -1,0 +1,15 @@
+{
+  "name": "calendar",
+  "version": "4.0.0",
+  "description": "Calendario",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "4.0.0",
+    "node-sass": "^4.7.2"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "css": "node-sass node_modules/bootstrap/scss/bootstrap.scss style.css"
+  }
+}
